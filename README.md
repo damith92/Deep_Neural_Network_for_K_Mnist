@@ -23,13 +23,21 @@ To define the stem block to extract non-overlapping patches of the image, I used
 
 In addition to the basic structures expected in the Stem block, I included a batch normalization layer to make the network converge faster and learn faster along with a ReLU activation layer. The following block diagram depicts my Stem block implementation.
 
-![](RackMultipart20220927-1-sdp78v_html_e744f287a72e52c.jpg)
+<p>&nbsp;</p>
+<kbd>
+<img src="https://user-images.githubusercontent.com/14356479/192408325-9594dd53-5b59-42d7-a3ef-2d0f5dedc1b5.jpg"  width="1000" ></kbd>
+<p>&nbsp;</p>
+
 
 **Part 2 – Backbone Block Definition**
 
 To define the backbone block, I take the no. of patches, user defined dimension used in the stem block and two hidden dimensions as inputs in the initialization and in addition to the basic 2 MLPs of the block, I include Batch Normalization layers and a skip connection from the beginning of the block to the end of the 2nd MLP taking inspiration from the ResNet Architecture to alleviate the problem of degradation in the network as I intend to stack backbone blocks over one another. Also, all the non-linear activation functions used in this block are ReLU functions in order to alleviate the vanishing gradient problem as I intend to use multiple layers in the network. The following block diagram depicts my Backbone block implementation.
 
-![](RackMultipart20220927-1-sdp78v_html_19e35e2bb8f997dd.jpg)
+<p>&nbsp;</p>
+<kbd>
+<img src="https://user-images.githubusercontent.com/14356479/192408369-0356ab96-2042-4ad5-a49c-d490b47927db.jpg"  width="1000" ></kbd>
+<p>&nbsp;</p>
+
 
 **Task 3**
 
@@ -55,9 +63,19 @@ The following table provides details on the 1st 3 experiments.
 
 Out of these 3 experiments the training loss, training accuracy and testing accuracy curves for the best 2 test accuracies of 85.05% and 84.86% which were reached in experiments 2 and 3 are shown below.
 
-![](RackMultipart20220927-1-sdp78v_html_484c198316d5ac4c.png) ![](RackMultipart20220927-1-sdp78v_html_8f4b2c7ed7e94192.png)
 
-_Figure 1: Metric curves for Experiment 2 Figure 2: Metric curves for Experiment 3_
+<p>&nbsp;</p>
+<kbd>
+<img src="https://user-images.githubusercontent.com/14356479/192408470-06df5097-c282-4e41-80cb-439e1cff3b2d.jpg"  width="1000" ></kbd>
+<p>&nbsp;</p>
+Figure 1: Metric curves for Experiment 2 
+
+
+<p>&nbsp;</p>
+<kbd>
+<img src="https://user-images.githubusercontent.com/14356479/192408501-a32a2065-7fdb-4eb8-897f-e73c7d0e7af3.jpg"  width="1000" ></kbd>
+<p>&nbsp;</p>
+Figure 2: Metric curves for Experiment 3
 
 Experiment 4 and 5
 
@@ -72,9 +90,17 @@ The following table provides details on those 2 experiments.
 
 The training loss, training accuracy and testing accuracy curves for the experiments 4 and 5 are shown below.
 
-![](RackMultipart20220927-1-sdp78v_html_4b1876c612c2962a.png) ![](RackMultipart20220927-1-sdp78v_html_85236273d0841a4a.png)
+<p>&nbsp;</p>
+<kbd>
+<img src="https://user-images.githubusercontent.com/14356479/192408594-6a35c5cc-3bcd-4c5e-ad2b-28cbc96bafc7.jpg"  width="1000" ></kbd>
+<p>&nbsp;</p>
+Figure 3: Metric curves for Experiment 4 
 
-_Figure 3: Metric curves for Experiment 4 Figure 4: Metric curves for Experiment 5_
+<p>&nbsp;</p>
+<kbd>
+<img src="https://user-images.githubusercontent.com/14356479/192408650-cad3706e-46c5-4b1d-a11f-77e8695ed199.jpg"  width="1000" ></kbd>
+<p>&nbsp;</p>
+Figure 4: Metric curves for Experiment 5
 
 **Task 5**
 
@@ -89,6 +115,15 @@ From the above experiments it was evident that when I add a greater number of Ba
 
 The training loss, training accuracy and testing accuracy curves for the run no. 1 and no. 2 are shown below.
 
-![](RackMultipart20220927-1-sdp78v_html_c3ef020b767d0b2.png) ![](RackMultipart20220927-1-sdp78v_html_2ebb078e2d9f28e7.png)
+<p>&nbsp;</p>
+<kbd>
+<img src="https://user-images.githubusercontent.com/14356479/192408852-20b2ef67-5450-4879-95f2-560eea4ab983.jpg"  width="1000" ></kbd>
+<p>&nbsp;</p>
+Figure 5: Metric curves for run no. 1 
 
-_Figure 5: Metric curves for run no. 1 Figure 6: Metric curves for run no. 2_
+
+<p>&nbsp;</p>
+<kbd>
+<img src="https://user-images.githubusercontent.com/14356479/192408885-ec70a908-7eb9-4323-82ef-375092bd6f47.jpg"  width="1000" ></kbd>
+<p>&nbsp;</p>
+Figure 6: Metric curves for run no. 2
