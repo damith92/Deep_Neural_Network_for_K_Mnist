@@ -25,7 +25,7 @@ In addition to the basic structures expected in the Stem block, I included a bat
 
 <p>&nbsp;</p>
 <kbd>
-<img src="https://user-images.githubusercontent.com/14356479/192408325-9594dd53-5b59-42d7-a3ef-2d0f5dedc1b5.jpg"  width="1000" ></kbd>
+<img src="https://user-images.githubusercontent.com/14356479/192408325-9594dd53-5b59-42d7-a3ef-2d0f5dedc1b5.jpg"  width="500" ></kbd>
 <p>&nbsp;</p>
 
 
@@ -35,7 +35,7 @@ To define the backbone block, I take the no. of patches, user defined dimension 
 
 <p>&nbsp;</p>
 <kbd>
-<img src="https://user-images.githubusercontent.com/14356479/192408369-0356ab96-2042-4ad5-a49c-d490b47927db.jpg"  width="1000" ></kbd>
+<img src="https://user-images.githubusercontent.com/14356479/192408369-0356ab96-2042-4ad5-a49c-d490b47927db.jpg"  width="750" ></kbd>
 <p>&nbsp;</p>
 
 
@@ -66,14 +66,14 @@ Out of these 3 experiments the training loss, training accuracy and testing accu
 
 <p>&nbsp;</p>
 <kbd>
-<img src="https://user-images.githubusercontent.com/14356479/192408470-06df5097-c282-4e41-80cb-439e1cff3b2d.jpg"  width="1000" ></kbd>
+<img src="https://user-images.githubusercontent.com/14356479/192408470-06df5097-c282-4e41-80cb-439e1cff3b2d.jpg"  width="500" ></kbd>
 <p>&nbsp;</p>
 Figure 1: Metric curves for Experiment 2 
 
 
 <p>&nbsp;</p>
 <kbd>
-<img src="https://user-images.githubusercontent.com/14356479/192408501-a32a2065-7fdb-4eb8-897f-e73c7d0e7af3.jpg"  width="1000" ></kbd>
+<img src="https://user-images.githubusercontent.com/14356479/192408501-a32a2065-7fdb-4eb8-897f-e73c7d0e7af3.jpg"  width="500" ></kbd>
 <p>&nbsp;</p>
 Figure 2: Metric curves for Experiment 3
 
@@ -92,13 +92,13 @@ The training loss, training accuracy and testing accuracy curves for the experim
 
 <p>&nbsp;</p>
 <kbd>
-<img src="https://user-images.githubusercontent.com/14356479/192408594-6a35c5cc-3bcd-4c5e-ad2b-28cbc96bafc7.jpg"  width="1000" ></kbd>
+<img src="https://user-images.githubusercontent.com/14356479/192408594-6a35c5cc-3bcd-4c5e-ad2b-28cbc96bafc7.jpg"  width="500" ></kbd>
 <p>&nbsp;</p>
 Figure 3: Metric curves for Experiment 4 
 
 <p>&nbsp;</p>
 <kbd>
-<img src="https://user-images.githubusercontent.com/14356479/192408650-cad3706e-46c5-4b1d-a11f-77e8695ed199.jpg"  width="1000" ></kbd>
+<img src="https://user-images.githubusercontent.com/14356479/192408650-cad3706e-46c5-4b1d-a11f-77e8695ed199.jpg"  width="500" ></kbd>
 <p>&nbsp;</p>
 Figure 4: Metric curves for Experiment 5
 
@@ -117,13 +117,13 @@ The training loss, training accuracy and testing accuracy curves for the run no.
 
 <p>&nbsp;</p>
 <kbd>
-<img src="https://user-images.githubusercontent.com/14356479/192408852-20b2ef67-5450-4879-95f2-560eea4ab983.jpg"  width="1000" ></kbd>
+<img src="https://user-images.githubusercontent.com/14356479/192408852-20b2ef67-5450-4879-95f2-560eea4ab983.jpg"  width="500" ></kbd>
 <p>&nbsp;</p>
 Figure 5: Metric curves for run no. 1 
 
 
 <p>&nbsp;</p>
 <kbd>
-<img src="https://user-images.githubusercontent.com/14356479/192408885-ec70a908-7eb9-4323-82ef-375092bd6f47.jpg"  width="1000" ></kbd>
+<img src="https://user-images.githubusercontent.com/14356479/192408885-ec70a908-7eb9-4323-82ef-375092bd6f47.jpg"  width="500" ></kbd>
 <p>&nbsp;</p>
 Figure 6: Metric curves for run no. 2
