@@ -1,4 +1,4 @@
-# k_mnist_Neural_network
+# k_mnist_deep_neural_network
 A  deep neural network to classify k-mnist data.
 
 ** Damith Senadeera **
